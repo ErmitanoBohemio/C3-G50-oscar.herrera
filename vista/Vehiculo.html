@@ -2,9 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vehículo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="">
+    <script src=""></script>
 </head>
 <body>
-
+    <form id="formVehiculo" name="formVehiculo">
+        <div id="divForm">
+            <table id="tablaForm">
+                <thead id="thForm">
+                    <tr>
+                        <td colspan="2">Gestionar Vehículos</td>
+                    </tr>
+                </thead>
+                <tbody id="tbForm">
+                    <tr>
+                        <td>Matricula</td>
+                        <td>
+                            <input type="text" value="" id="txtMatricula" name="txtMatricula">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Propietario</td>
+                        <td>
+                            <select name="selectPropietario" id="selectPropietario">
+                                <option value="---Seleccionar---"></option>
+                                <option id="optPropietario">Aqui obtine datos de la base de datos Propietarios</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hora ingreso</td>
+                        <td>
+                            <input type="text" value="" id="txtIngreso" name="txtIngreso" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hora salida</td>
+                        <td>
+                            <input type="text" value="" id="txtSalida" name="txtSalida" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pagado</td>
+                        <td>
+                            <input type="text" value="" id="txtPagado" name="txtPagado" readonly>
+                        </td>
+                    </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Ingresar" id="btnIngresar" name="btnIngresar" onclick="">
+                        <input type="button" value="Modificar" id="btnModificar" name="btnModificar" onclick="">
+                        <input type="button" value="Eliminar" id="btnEliminar" name="btnEliminar" onclick="">
+                        <input type="button" value="Consultar" id="btnConsultar" name="btnconsultar" onclick="">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="divDato">
+            <table id="tablaDato">
+                <thead id="thDato">
+                    <tr>
+                        <td>MATRICULA</td>
+                        <td>PROPIETARIO</td>
+                        <td>HORA INGRESO</td>
+                        <td>HORA SALIDA</td>
+                        <td>PAGADO</td>
+                    </tr>
+                </thead>
+                <tbody id="tbDato">
+                <!-- Aqui van a llegar los datos de la base de datos -->
+                </tbody>
+            </table>
+        </div>
+    </form>
 </body>
 </html>
