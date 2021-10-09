@@ -1,0 +1,67 @@
+body{
+background-color: #F0F3F4;
+color:#0C304F;
+}
+
+input, #selectPropietario {
+background-color:#FCF3CF;
+}
+
+.titulo{
+font-family:Fantasy;
+font-size: 30px;
+text-align: center
+}
+
+#tbForm{
+font-family:Monaco;
+font-size: 20px;
+font-weight: bold;
+}
+header{
+position:fixed;
+z-index:100;
+width:100%;
+}
+.contenido {
+  padding-top: 80px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+}
+
+nav div{
+font-family: 'Berkshire Swash', cursive;
+font-size:22px;
+}
+
+#bodyIndex{
+  background-image: url("../img/volkswagen-car-towers-1500x1000.jpg");
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: auto;
+  height:790px;
+}
+
+#divIndex{
+width:500px;
+margin:auto;
+padding:20px;
+}
+
+h2{
+font-family: 'Berkshire Swash', cursive;
+}
+
+.inputTxtClass:focus{
+border-color:#73A4BE;
+box-shadow:0px 0px 3px 3px #BAE5FB inset;
+outline: 0 none;
+}
